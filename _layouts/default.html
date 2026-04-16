@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <svg class="brand-mark" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <ellipse cx="24" cy="36" rx="8" ry="3" fill="currentColor" opacity="0.3"/>
+        <rect x="20" y="26" width="8" height="10" fill="currentColor"/>
+        <circle cx="24" cy="18" r="13" fill="currentColor"/>
+        <circle cx="24" cy="18" r="6" fill="#0a0a0b"/>
+        <circle cx="24" cy="18" r="3" fill="currentColor" opacity="0.6"/>
+      </svg>
+      <span class="brand-name">ZzzCam</span>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/privacy.html' | relative_url }}">Privacy</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> ZzzCam. Built by <a href="https://mirmic.co">Mirmic</a>.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -18,4 +18,5 @@ A night camera and monitor app for parents. Turn one phone or tablet into a came
 ## Links
 
 - [Privacy Policy](privacy.html)
-- [Source Code](https://github.com/asteriskSF/KidsNightCam)
+- Contact: [hello@zzzcam.com](mailto:hello@zzzcam.com)
+- Built by [Mirmic](https://mirmic.co)

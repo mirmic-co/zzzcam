@@ -76,4 +76,6 @@ If this policy changes materially, we will update the effective date above and p
 
 If you have questions about this policy or the app's privacy behavior, contact us at:
 
-**[replace-with-your-contact-email@example.com]**
+**[privacy@zzzcam.com](mailto:privacy@zzzcam.com)**
+
+ZzzCam is built by [Mirmic](https://mirmic.co).
