@@ -5,7 +5,7 @@ title: Privacy Policy
 # Privacy Policy
 
 **Effective Date:** April 14, 2026
-**App:** ZzzCam (package `com.asterisk.kidsnightcam`)
+**App:** ZzzCam (package `co.mirmic.zzzcam`)
 
 ## Summary
 
