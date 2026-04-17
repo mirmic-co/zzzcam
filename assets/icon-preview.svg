@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A1035"/>
+      <stop offset="0.5" stop-color="#2D1B4E"/>
+      <stop offset="1" stop-color="#1A1035"/>
+    </linearGradient>
+    <clipPath id="circle-mask">
+      <circle cx="54" cy="54" r="48"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle-mask)">
+    <rect width="108" height="108" fill="url(#bg)"/>
+    <!-- Base stand -->
+    <path fill="#FFFFFF" d="M48,70 L44,76 Q44,78 46,78 L62,78 Q64,78 64,76 L60,70 Z"/>
+    <!-- Orb body -->
+    <circle cx="54" cy="50" r="21" fill="#FFFFFF"/>
+    <!-- Lens bezel ring -->
+    <circle cx="54" cy="50" r="15" fill="#CF94DA"/>
+    <!-- Lens interior -->
+    <circle cx="54" cy="50" r="13" fill="#1E1040"/>
+    <!-- Crescent moon -->
+    <path fill="#CF94DA" d="M52,38 C43,42 43,58 52,62 C49,57 49,43 52,38 Z"/>
+    <!-- Star 1 -->
+    <path fill="#CF94DA" d="M62,41 L63.2,43 L62,45 L60.8,43 Z"/>
+    <!-- Star 2 -->
+    <path fill="#CF94DA" d="M64,50.5 L65,52 L64,53.5 L63,52 Z"/>
+    <!-- Star 3 -->
+    <path fill="#CF94DA" d="M60,55.5 L60.8,57 L60,58.5 L59.2,57 Z"/>
+    <!-- LED indicator -->
+    <circle cx="54" cy="32" r="2" fill="#CF94DA"/>
+  </g>
+  <circle cx="54" cy="54" r="48" fill="none" stroke="#2D1B4E" stroke-width="0.5"/>
+</svg>
